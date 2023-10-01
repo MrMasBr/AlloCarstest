@@ -1,0 +1,155 @@
+:root{
+    --primary-color: #2BE2AE;
+    --secondary-color: black;
+    --third-color: #F1F1F1;
+    --fourth-color: #c0c0c0;
+}
+body{
+    font-family: 'Michroma', sans-serif;
+    
+}
+.navbar-brand{
+    font-weight: 600;
+    color: var(--primary-color);
+    text-shadow: 3px 3px 10px var(--third-color);
+}
+.navbar-toggler{
+    font-size: 15px;
+    border: none;
+}
+.fa-social{
+    font-size: 25px;
+    color: var(--fourth-color);
+}
+.collapse{
+    color: var(--third-color);
+}
+.info{
+    background-image: url(/Assets/IMAGES/test.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    min-height: 60vh;
+    
+}
+.title{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 50px;
+    text-shadow: 3px 3px 10px var(--third-color);
+    
+}
+.sub{
+    color: var(--primary-color);
+    font-weight: 800;
+    text-shadow: 3px 3px 10px var(--third-color);
+}
+.para{
+    color: var(--third-color);
+    font-size: 13px;
+    font-weight: 800;
+}
+.btn{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 13px;
+    border: none;
+    font-weight:800;
+    transition: .5s;
+    
+}
+.btn:hover{
+    background-color: var(--fourth-color) ;
+}
+.sec-title{
+    color: var(--secondary-color);
+    font-size: 25px;
+    font-weight: 800;
+}
+.sec-para{
+    color: var(--fourth-color);
+    font-size: 13px;
+    font-weight: 800;
+}
+.services{
+    background-color: var(--fourth-color);
+}
+.card{
+    border-radius: 0%;
+    box-shadow: 1px 1px 5px var(--fourth-color);
+    transition: .5s; 
+}
+.card:hover {
+    background-color: var(--third-color);
+}
+.card:hover .icon{
+    transform: scale(1.5);
+    
+}
+.icon{
+    font-size: 100px;
+    color: var(--primary-color);
+    transition: .5s;
+}
+.card-tile{
+    color: var(--secondary-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+.card-text{
+    color: var(--fourth-color);
+    font-size: 13px;
+    font-weight: 100;
+}
+.veiculos{
+    background-color: var(--secondary-color);
+}
+.thir-title{
+    color: var(--third-color);
+    font-size: 25px;
+    font-weight: 600;
+}
+.thir-para{
+    color: var(--fourth-color);
+    font-size: 13px;
+    font-weight: 600;
+}
+.insights{
+    background-color:#1B1B1B;
+}
+.sub-h2{
+    color: var(--primary-color);
+    font-size: 50px;
+    font-weight: 500;
+}
+.sub-h5{
+    color: var(--third-color);
+    font-size: 10px;
+    font-weight: 300;
+}
+spam{
+    color: var(--primary-color);
+    font-size: 50px;
+}
+.carousel-item{
+    height: 200px;
+  
+}
+.carousel-indicators :not(.active){
+    background-color: #1B1B1B;
+}
+.carousel-indicators .active{
+    background-color: var(--primary-color);
+}
+.contatos{
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+}
+.fa-social{
+    color:var(--primary-color);
+}
+.fa-social :hover{
+    transform: scale(1.5);
+    transition: .3s;
+}

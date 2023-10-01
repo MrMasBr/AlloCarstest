@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlloCars</title>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Assets/CSS/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-black border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+                    <img src="/Assets/IMAGES/logo.png" alt="Logo" width="50" height=""
+                        class="d-inline-block align-text-top">
+                    AlloCars
+                </a>
+                <div class="social">
+                    <a class="fa-social" href="https://www.instagram.com/"><i class="fa-brands fa-instagram "></i></a>
+                    <a class="fa-social" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="fa-social" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#serviço">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#veiculos">Veiculos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#insights">Insights</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#depoimentos">Depoimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contatos">Contatos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Crie sua conta | Login
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Inscreva-se</a></li>
+                                <li><a class="dropdown-item" href="#">Login</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- INTRODUCTION -->
+    <section id="">
+        <div class="info row d-flex justify-content-center align-items-center">
+            <div class="col-lg-12 text-center py-4">
+                <h3 class="title pt-3">AlloCars</h3>
+                <h4 class="sub ">DESCUBRA A LIBERDADE DE EXPLORAR</h4>
+                <p class="para pb-5">Conforto, praticidade e qualidade na palma da sua mão</p>
+
+                <a href="" class="btn btn-primary btn-sm">Mais informacoes</a>
+            </div>
+        </div>
+    </section>
+    <!-- FIM INTRODUCTION -->
+
+    <!-- SERVICES -->
+    <section class="my-5" id="serviço">
+        <h3 class="sec-title text-center">Serviços</h3>
+        <p class="sec-para text-center">A nossa plataforma foi feita para você</p>
+
+
+        <div class="row d-flex">
+            <div class="col-lg-3 col-md-6 my-2 text-center" id="reserva">
+                <div class="reserva card h-100">
+                    <div class="card-body">
+                        <i class="icon fa-solid fa-car my-5"></i>
+                        <h5 class="card-tile">Reserva de autos</h5>
+                        <p class="card-text">Na nossa empresa, oferecemos um serviço de reserva de locação de carros que
+                            visa proporcionar aos nossos clientes uma experiência prática e conveniente. Com uma ampla
+                            variedade de veículos disponíveis, desde compactos até SUVs espaçosos, temos a opção
+                            perfeita para atender às suas necessidades de locomoção. Além disso, garantimos
+                            transparência nos preços e condições, sem taxas ocultas. Com um processo de reserva simples
+                            e seguro, você pode contar conosco para tornar sua viagem mais confortável e sem
+                            complicações. Estamos comprometidos em oferecer um serviço de qualidade, com atendimento
+                            personalizado e eficiente. Faça sua reserva conosco e desfrute de uma experiência de locação
+                            de carro excepcional.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6  my-2 text-center" id="cancelar">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <i class="icon fa-solid fa-ban my-5"></i>
+                        <h5 class="card-tile">Cancelar locação</h5>
+                        <p class="card-text">Na nossa empresa, entendemos que imprevistos podem acontecer e, por isso,
+                            oferecemos aos nossos clientes a opção de cancelamento de locação de carro. Sabemos que
+                            circunstâncias podem mudar e, por isso, queremos garantir a flexibilidade e comodidade para
+                            nossos clientes. Caso haja a necessidade de cancelar a reserva, basta entrar em contato
+                            conosco e faremos o possível para atender às suas necessidades. Nosso objetivo é
+                            proporcionar uma experiência tranquila e satisfatória, sempre colocando o cliente em
+                            primeiro lugar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6  my-2 text-center" id="cadastrar">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <i class="icon fa-solid fa-user-plus my-5"></i>
+                        <h5 class="card-tile">Cadastrar veículo</h5>
+                        <p class="card-text">Na nossa empresa, entendemos a importância de oferecer aos nossos clientes
+                            um processo de cadastro de veículos simples e eficiente. Se você possui um veículo e deseja
+                            disponibilizá-lo para locação, estamos aqui para ajudar. Com o nosso sistema de cadastro,
+                            você pode facilmente cadastrar seu veículo, fornecendo informações detalhadas e fotos de
+                            qualidade. Além disso, garantimos a segurança e proteção dos seus dados, mantendo a
+                            confidencialidade das informações fornecidas. Ao cadastrar seu veículo conosco, você terá
+                            acesso a uma ampla base de clientes em busca de aluguel de carros, aumentando suas chances
+                            de obter renda extra. Estamos comprometidos em oferecer um serviço de qualidade, com suporte
+                            e orientação durante todo o processo. Cadastre seu veículo agora e faça parte da nossa rede
+                            de locação de carros confiável e bem-sucedida.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 my-2 col-md-6  text-center" id="estender">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <i class="icon fa-solid fa-clock my-5"></i>
+                        <h5 class="card-tile">Estender reserva</h5>
+                        <p class="card-text">Na nossa empresa, entendemos que os planos podem mudar e, por isso,
+                            oferecemos aos nossos clientes a opção de estender a reserva de locação de carro. Sabemos
+                            que imprevistos podem acontecer ou que você pode querer aproveitar mais tempo com o veículo
+                            alugado. Com a nossa flexibilidade, você pode facilmente estender a sua reserva, seja por
+                            alguns dias ou até mesmo semanas adicionais. Basta entrar em contato conosco e faremos o
+                            possível para atender às suas necessidades. Queremos garantir que sua experiência de locação
+                            de carro seja conveniente e adaptada às suas demandas. Conte conosco para estender a sua
+                            reserva e aproveitar ao máximo o seu aluguel de qualquer veiculo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIM SERVICES -->
+
+    <!-- VEICULOS -->
+    <section class="veiculos py-4 " id="veiculos">
+        <h3 class="thir-title text-center">Veículos</h3>
+        <p class="thir-para text-center">Tipos</p>
+
+        <div class="row d-flex">
+
+            <div class="col-md-5 col-lg-4 my-2">
+                <div class="card h-100">
+
+                    <div class="card-body">
+                        <img src="/Assets/IMAGES/uno.png" class="img-fluid" alt="">
+                        <h5 class="card-tile my-3">Carros</h5>
+                        <p class="card-text">Na AlloCars, oferecemos uma variedade de opções para atender às
+                            necessidades dos clientes. Com um processo simples, é possível encontrar e reservar o carro
+                            ideal. Garantimos a qualidade e segurança dos veículos disponíveis. Além disso, oferecemos
+                            preços competitivos e condições flexíveis de aluguel. Nossa plataforma está pronta para
+                            tornar sua experiência de aluguel de carros simples e satisfatória.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-4 my-2">
+                <div class="card h-100">
+
+                    <div class="card-body">
+                        <img src="/Assets/IMAGES/cg.png" class="img-fluid" alt="">
+                        <h5 class="card-tile my-3">Motos</h5>
+                        <p class="card-text">Para os amantes de duas rodas. Com um processo simples e rápido, é possível
+                            encontrar e reservar a moto perfeita para cada aventura. Oferecemos preços competitivos e
+                            condições flexíveis de aluguel, tornando o acesso às motos mais acessível para todos os
+                            nossos usuários. Seja para um passeio emocionante pela cidade, uma viagem de fim de semana
+                            ou até mesmo para experimentar um modelo diferente, a AlloCars está pronta para atender às
+                            suas necessidades e proporcionar uma experiência incrível sobre duas rodas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-4 my-2">
+                <div class="card h-100">
+
+                    <div class="card-body">
+                        <img src="/Assets/IMAGES/doblo.png" class="img-fluid" alt="">
+                        <h5 class="card-tile my-3">Vans</h5>
+                        <p class="card-text">Em nossa plataforma AlloCars, oferecemos uma variedade de opções para
+                            atender às necessidades de transporte de grupos. Com um processo simples, é possível
+                            encontrar e reservar a van ideal. Nossa plataforma está pronta para tornar o aluguel de vans
+                            conveniente e acessível para todos os usuários.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- FIM VEICULOS -->
+    <!-- INSIGHTS -->
+    <section class="insights py-3 " id="insights">
+        <h1 class="title text-center">INSIGHTS</h3>
+
+            <div class="row d-flex align-items-center justify-content-center text-center">
+                <div class="col-md-6 col-lg-3 my-2 ">
+                    <h2 class="sub-h2">1k</h2>
+                    <h5 class="sub-h5">Carros em São Paulo</h5>
+                </div>
+
+                <div class="col-md-6 col-lg-3 my-2">
+                    <h2 class="sub-h2">100%</h2>
+                    <h5 class="sub-h5">Confiabilidade</h5>
+                </div>
+
+                <div class="col-md-6 col-lg-3 my-2 ">
+                    <h2 class="sub-h2">3</h2>
+                    <h5 class="sub-h5">Tipos de veiculos</h5>
+                </div>
+
+                <div class="col-md-6 col-lg-3 my-2">
+                    <h2 class="sub-h2">24h</h2>
+                    <h5 class="sub-h5">Suporte ao cliente</h5>
+
+                </div>
+            </div>
+
+    </section>
+    <!-- FIM INSIGHTS -->
+
+    <!-- DEPOIMENTO -->
+    <section class=" my-5 " id="depoimentos">
+        <div class="depoimento container text-center">
+            <h3 class="sec-title text-center">Depoimentos de clientes</h3>
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide ">
+                    <div class="carousel-indicators">
+                        <button type=" button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type=" button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type=" button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner pt-2 pb-5">
+                        <div class="carousel-item active">
+                            <p class="carousel-description">
+                                <spam>"</spam>Minha experiência com a AlloCars foi incrível. O
+                                atendimento foi excepcional, desde a reserva até a devolução do veículo. A plataforma é
+                                super facil de navegar. O carro estava em perfeitas condições, limpo e bem
+                                cuidado. O processo de retirada e devolução foi rápido e eficiente. Recomendo totalmente
+                                a AlloCars. Obrigado por tornar minha experiência tão positiva!
+                            </p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="carousel-description">
+                                <spam>"</spam>Fiquei extremamente satisfeito com a AlloCars. A plataforma online foi
+                                incrível, tornando todo o processo de reserva e devolução do veículo muito fácil e
+                                conveniente. A van que aluguei estava em perfeitas condições, limpa e bem cuidada.
+                                Recomendo a AlloCars para quem busca um serviço de aluguel de autos de qualidade!
+                            </p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="carousel-description">
+                                <spam>"</spam>A plataforma online foi excepcional, permitindo que eu alugasse uma moto
+                                de forma rápida e conveniente.
+                                A moto que aluguei estava em perfeitas condições, bem cuidada e pronta para a aventura.
+                                Foi uma experiência emocionante explorar São Paulo sobre duas rodas. A sensação de
+                                liberdade e a adrenalina proporcionada pela moto foram incomparáveis!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIM DEPOIMENTO -->
+
+    <!-- CONTATOS -->
+    <section class="contatos mt-5" id="contatos">
+        <div class="row d-flex justify-content-center align-items-left  ps-5 py-5">
+            <div class="col-lg-12">
+                <h4 class="py-3"><img src="/Assets/IMAGES/logo.png" alt="Logo" width="50" height=""
+                        class="d-inline-block align-text-top">Contatos</h4>
+                <h6> <a class="fa-social" href="https://www.instagram.com/"><i class="fa-brands fa-instagram "></i></a>
+                    @AlloCars
+                </h6>
+                <h6><a class="fa-social" href="https://pt-br.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    AlloCars
+                </h6>
+                <h6><a class="fa-social" href=""><i class="fa-solid fa-phone"></i></a> +55 (11) 1234-4569
+                </h6>
+                <h6><a class="fa-social"
+                        href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=16&ct=1696175972&rver=7.0.6738.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fcobrandid%3dab0455a0-8d03-46b9-b18b-df2f57b9e44c%26nlp%3d1%26deeplink%3dowa%252f%26RpsCsrfState%3de670898c-cc1e-d0f8-476e-46c38a5c34ac&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c"><i
+                            class="fa-regular fa-envelope"></i></i></a> allocars@email.com.br
+                </h6>
+            </div>
+        </div>
+    </section>
+    <!-- FIM CONTATOS -->
+    <!-- FAQ -->
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
